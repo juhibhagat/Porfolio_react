@@ -5,7 +5,7 @@ function Home() {
         }}>
             <div className="border border-4">
                 <div >
-                    hii
+                <img src="bio-pic.jpg" alt="" />
                 </div>
                 <div>
                     <button className="btn btn-danger">Download CV <span className="bi bi-download"></span></button>

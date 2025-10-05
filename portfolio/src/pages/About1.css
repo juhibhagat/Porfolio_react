@@ -1,0 +1,15 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;          /* multiple rows me adjust ho jaaye */
+  justify-content: space-between;  /* space evenly between cards */
+  gap: 20px;                /* gap between cards */
+}
+
+.card {
+  flex: 1 1 calc(33.33% - 20px);  /* ek row me 3 cards */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fff;
+}
