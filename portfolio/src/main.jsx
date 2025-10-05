@@ -5,10 +5,10 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css"
 import "../node_modules/bootstrap-icons/font/bootstrap-icons.css"
 import { Header } from './component/header'
 
-
+import App from './App'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  <Header></Header>
+  <App/>
   </StrictMode>,
 )

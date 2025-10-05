@@ -1,7 +1,7 @@
 function Service(){
     return(
         <div>
-            <h1>About</h1>
+            <h1>Service</h1>
         </div>
     )
 }
