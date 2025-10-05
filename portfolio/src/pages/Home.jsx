@@ -1,11 +1,12 @@
 function Home() {
     return (
-        <div className="d-flex justify-content-between" style={{
+        <div className="d-flex  justify-content-around secondary " style={{
             height:"600px"
+            
         }}>
-            <div className="border border-4">
+            <div className="border border-4 p-3">
                 <div >
-                <img src="bio-pic.jpg" alt="" />
+                 <img src="/image/ecommerce.png"  alt="img"  />
                 </div>
                 <div>
                     <button className="btn btn-danger">Download CV <span className="bi bi-download"></span></button>
@@ -13,7 +14,7 @@ function Home() {
                 </div>
             </div>
 
-            <div className="border border-4">
+            <div className="border border-4 p-4">
                 <h1>Hii , I am juhi </h1>
                 <marquee direction="left" className="text-danger fw-bold fs-4">Ui FullStack with React</marquee>
 
