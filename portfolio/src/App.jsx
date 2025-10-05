@@ -4,7 +4,7 @@ import Service from "./pages/service"
 import Contact from "./pages/Contact"
 import { Header } from "./component/header"
 import Footer from "./component/footer"
-
+import About from "./pages/About"
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/service" element={<Service />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About/>}/>
 
 
         </Routes>
